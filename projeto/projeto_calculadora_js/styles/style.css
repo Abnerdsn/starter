@@ -5,6 +5,10 @@ body {
     flex-direction: column;
     background-color: #E5D9E7;
 }
+.dark-mode {
+    background-color: #FFD166;
+    color: black;
+  }
 h1 {
     font-family: sans-serif;
     font-weight: bolder;
@@ -18,7 +22,7 @@ input {
 #form {
     width: 40%;
 }
-button {
+.calc {
     background-color: #26547C;
     color: #FFD166;
     border-style: none;
@@ -27,6 +31,18 @@ button {
     height: 40px;
     box-sizing: border-box;
 }
+.light-mode {
+    display: flex;
+    padding: 10px;
+    transition: background-color 0.5s ease;
+    
+  }
+  .light-mode-button {
+    background-color: #E5D9E7;
+  }
+  .light-mode:active {
+    background-color: gray;
+  }
 button:hover {
     background-color: #FFD166;
     color: #E5D9E7;
