@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body {
     display: flex;
     text-align: center;
@@ -6,13 +10,26 @@ body {
     background-color: #E5D9E7;
 }
 .dark-mode {
-    background-color: #FFD166;
+    background-color: #26547C;
+    color: #E5D9E7;
+  }
+  .dark-mode  h1 {
+    
+    color: #E5D9E7;
+  }
+  .dark-mode button {
+    background-color: #E5D9E7;
+    color: #26547C;
+  }
+  .dark-mode a {
+   
     color: black;
   }
 h1 {
     font-family: sans-serif;
     font-weight: bolder;
     color: #26547C;
+    padding: 20px;
 }
 input {
     width: 100%;
@@ -33,12 +50,15 @@ input {
 }
 .light-mode {
     display: flex;
-    padding: 10px;
+    margin: 10px;
     transition: background-color 0.5s ease;
     
+    
   }
+  
   .light-mode-button {
     background-color: #E5D9E7;
+   
   }
   .light-mode:active {
     background-color: gray;
@@ -67,4 +87,5 @@ p{
 }
 footer {
     padding: 40px;
+    font-weight: 600;
 }
