@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Peso e Balanceamento Robinson R44</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <h1>Peso e Balanceamento Robinson R44</h1>
+    
+    </table>
+    <div class="checkbox">   
+        <h2>Marque se instalado</h2>
+        <label><input type="checkbox" > Duplo Controle</label>
+        <label><input type="checkbox" checked> Porta Dianteira Esquerda</label>
+        <label><input type="checkbox" checked> porta dianteira direita</label>
+        <label><input type="checkbox" checked> porta traseira esquerda</label>
+        <label><input type="checkbox" checked> porta traseira direita</label>
+    </div>
+  
+    <table>
+      <tr>
+        <th colspan="2">Peso (lbs)</th>
+        <th>Braço Longitudinal </th>
+        <th>Momento Longitudinal </th>
+        <th>Braço Transversal </th>
+        <th>Momento Transversal </th>
+      </tr>
+      <tr>
+        <td>Peso Vazio</td>
+        <td><input type="number" value="1491.91"></td>
+        <td><input type="number" value="105.8" ></td>
+        <td><input type="number"></td>
+        <td><input type="number"></td>
+        <td><input type="number"></td>
+      </tr>
+      <tr>
+        <td>Piloto</td>
+        <td><input type="number" value="175"></td>
+        <td><input type="number"></td>
+        <td><input type="number"></td>
+        <td><input type="number"></td>
+        <td><input type="number"></td>
+      </tr>
+      <tr>
+        <td>bagagem Piloto</td>
+        <td><input type="number" value="0"></td>
+        <td><input type="number"></td>
+        <td><input type="number"></td>
+        <td><input type="number"></td>
+        <td><input type="number"></td>
+      </tr>
+      <tr>
+        <td>dianteiro esquerdo (passageiro)</td>
+        <td><input type="number" value="175"></td>
+        <td><input type="number"></td>
+        <td><input type="number"></td>
+        <td><input type="number"></td>
+        <td><input type="number"></td>
+      </tr>
+      <tr>
+        <td>bagagem Passageiro</td>
+        <td><input type="number" value="0"></td>
+        <td><input type="number"></td>
+        <td><input type="number"></td>
+        <td><input type="number"></td>
+        <td><input type="number"></td>
+      </tr>
+      <tr>
+        <td>atrás direito (passageiro)</td>
+        <td><input type="number" value="0"></td>
+        <td><input type="number"></td>
+        <td><input type="number"></td>
+        <td><input type="number"></td>
+        <td><input type="number"></td>
+      </tr>
+      <tr>
+        <td>bagagem direito</td>
+        <td><input type="number" value="0"></td>
+        <td><input type="number"></td>
+        <td><input type="number"></td>
+        <td><input type="number"></td>
+        <td><input type="number"></td>
+      </tr>
+      <tr>
+        <td>atrás esquerdo (passageiro)</td>
+        <td><input type="number" value="0"></td>
+        <td><input type="number"></td>
+        <td><input type="number"></td>
+        <td><input type="number"></td>
+        <td><input type="number"></td>
+      </tr>
+      <tr>
+        <td>bagagem esquerdo</td>
+        <td><input type="number" value="0"></td>
+        <td><input type="number"></td>
+        <td><input type="number"></td>
+        <td><input type="number"></td>
+        <td><input type="number"></td>
+      </tr>
+      <tr>
+        <td>zero combustivel</td>
+        <td><input type="number" value="1841.97" disabled></td>
+        <td><input type="number"></td>
+        <td><input type="number"></td>
+        <td><input type="number"></td>
+        <td><input type="number"></td>
+      </tr>
+      <tr>
+        <td>tanque principal (gal)<input class="fuel" value="15"></td>
+        <td><input type="number" value="90" disabled></td>
+        <td><input type="number"></td>
+        <td><input type="number"></td>
+        <td><input type="number"></td>
+        <td><input type="number"></td>
+      </tr>
+      <tr>
+        <td>tanque auxiliar (gal)<input class="fuel" value="8.97" disabled></td>
+        <td><input type="number" value="53.82" disabled></td>
+        <td><input type="number"></td>
+        <td><input type="number"></td>
+        <td><input type="number"></td>
+        <td><input type="number"></td>
+      </tr>
+      <tr>
+        <td>Total</td>
+        <td><input type="text" value="resultado" disabled></td>
+        <td><input type="text" value="resultado" disabled></td>
+        <td><input type="text" value="resultado" disabled></td>
+        <td><input type="text" value="resultado" disabled></td>
+        <td><input type="text" value="resultado" disabled></td>
+      </tr>
+    <button id="calculate">Calcular</button>
+    <p class="danger-msg">Use este aplicativo por conta e risco</p>
+    <script src="script.js"></script>
+  </body>
+</html>

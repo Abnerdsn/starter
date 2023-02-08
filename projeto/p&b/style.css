@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+table {
+    border-collapse: collapse;
+    width: 80%;
+    padding: 10px;
+  }
+  
+  th {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+  td {
+    border: 1px solid black;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: lightgray;
+    padding: 10px;
+    text-align: center;
+  }
+  .fuel {
+    width: 30px;
+    margin: 10px;
+  }
+  
+  #calculate {
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+    border: 1px solid block;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+
+  }
+  .checkbox {
+    text-align: center;
+    border: none;
+    width: 60%;
+
+  }
+  .danger-msg {
+    color: red;
+    padding: 10px;
+
+  }

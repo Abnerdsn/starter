@@ -1,3 +1,4 @@
+
   body {
     background-color: #161926;
     color: #72A1D4;
@@ -10,7 +11,6 @@
   }
   h1 {
     color: black;
-    margin: 0;
   }
   main {
     display: flex;
@@ -24,7 +24,6 @@
   }
   h2 {
     color: #467FC4;
-    margin-top: 0;
   }
   #profile {
     width: 200px;
@@ -51,13 +50,30 @@
   }
   .print_projects {
     width: 250px;
-    height: 200px;
+    height: 180px;
     cursor: pointer;
+    transition: all 0.5s;
+    cursor: pointer;
+    -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	filter: gray;
   }
+ 
+
+  .print_projects:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    -webkit-filter: none;	
+	filter: none;	
+}
+
+
   .description{
     color: white;
   }
-  
+  details {
+    cursor: pointer;
+  }
 
   /* Responsividade */
   @media (max-width: 768px) {
